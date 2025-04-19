@@ -1,0 +1,215 @@
+
+.body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.web {
+background: #E7E9FC;
+color:#4D5AE5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.studio{
+    background: #E7E9FC;
+    color:#2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.contacts {
+    color: #2e2f42;
+    background: #E7E9FC;    
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.link {
+    color: #2e2f42;
+}
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+.tegaddress {
+    font-style: normal;    
+      background: #E7E9FC;
+       color: #434455;
+   font-family: Roboto;
+       font-weight: 400;
+       font-size: 16px;
+        line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.linkq {
+    color: #434455;
+}
+.linkq:hover,
+.linkq:focus {
+    color: #404bbf;
+}
+
+
+ .efective {
+     background: #2E2F42;
+ }
+ 
+.title {
+     background: #2E2F42;
+        color:#FFFFFF; 
+    font-family: Roboto;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.button {
+    background-color: #4D5AE5;
+        color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+  .button:hover,:focus{
+   background-color: #404BBF; 
+  }
+.advantages {
+    background: #E7E9FC;
+    color: #2e2f42;
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.feature {
+    background: #E7E9FC;
+    color: #434455;
+    font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.section {
+background-color: #F4F4FD;
+}
+
+.team {
+    background-color: #F4F4FD;
+    color: #2e2f42;
+    font-family: Roboto;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+.ourteam {
+    background: #FFFFFF;
+}
+.teamq { 
+    background:#FFFFFF;
+    color: #2e2f42;
+font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.profession {
+    background:#FFFFFF;
+    color: #434455;
+    font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.portfolio { 
+    background: #E7E9FC;
+    color: #2e2f42;
+    font-family: Roboto;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+.portfolioq {
+    color: #2e2f42;
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.portfoliow {
+    color: #434455;
+    font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.footer {
+   
+    color: #F4F4FD;
+    font-family: Roboto, sans-serif;
+    background: #2e2f42;
+    font-family: raleway, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+}
+
+.webq {
+    background: #2e2f42;
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+} 
+
+.studioq {
+    background: #2E2F42;
+    color:#F4F4FD;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footerq {
+ background: #2e2f42;
+ font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
+
+
