@@ -1,8 +1,28 @@
 
+
+    
+
 .body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1440px;
+}
+.ulheader {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+}
+
+.header {
+background-color: #E7E9FC;
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;   
 }
 
 .web {
@@ -14,7 +34,9 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: inline-block;
 }
+
 .studio{
     background: #E7E9FC;
     color:#2E2F42;
@@ -33,6 +55,11 @@ text-transform: uppercase;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        display: inline-block;
+}
+.ulclass-contacts {
+    display: flex;
+    gap: 28px;
 }
 .link {
     color: #2e2f42;
@@ -51,6 +78,12 @@ text-transform: uppercase;
         line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.ulclass-address {
+display: flex;
+gap: 28px;
+list-style: none;  
+ padding-left: 0;
+}
 .linkq {
     color: #434455;
 }
@@ -62,8 +95,12 @@ text-transform: uppercase;
 
  .efective {
      background: #2E2F42;
+   
+   
+  
+    
  }
- 
+
 .title {
      background: #2E2F42;
         color:#FFFFFF; 
@@ -83,18 +120,21 @@ text-transform: uppercase;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+   
+        
 }
   .button:hover,:focus{
    background-color: #404BBF; 
   }
 .advantages {
     background: #E7E9FC;
-    color: #2e2f42;
+    color: #2E2F42;
     font-family: Roboto;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+   
 }
 .feature {
     background: #E7E9FC;
@@ -122,6 +162,7 @@ background-color: #F4F4FD;
 }
 .ourteam {
     background: #FFFFFF;
+   
 }
 .teamq { 
     background:#FFFFFF;
@@ -211,5 +252,12 @@ line-height: 24px;
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
+.a {
+    text-decoration: none;
+}
+.ul {
+    list-style: none;
+}
+
 
 
