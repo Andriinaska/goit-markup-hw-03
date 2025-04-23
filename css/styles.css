@@ -1,5 +1,4 @@
 
-
         *,
         *::before,
         *::after {
@@ -27,15 +26,16 @@
 img {
     display: block;
     max-width: 100%;
-    height: auto;
+    
 }
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 .body {
     font-family: Roboto, sans-serif;
@@ -54,14 +54,14 @@ img {
 }
 
 .header {
-background-color: #E7E9FC;
-    padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc;
+    background-color:#FFFFFF;
+    padding: 28px 0;
+    border-bottom: 1px solid#FFFFFF;
       
 }
 
 .web {
-background: #E7E9FC;
+background #FFFFFF;
 color:#4D5AE5;
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -70,10 +70,11 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
+text-decoration: none;
 }
 
 .studio{
-    background: #E7E9FC;
+    background: #FFFFFF;
     color:#2E2F42;
     font-size: 18px;
     font-weight: 700;
@@ -84,20 +85,23 @@ display: inline-block;
 
 .contacts {
     color: #2e2f42;
-    background: #E7E9FC;    
+    background: #FFFFFF;    
     font-family: Roboto;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         display: inline-block;
+    
 }
 .ulclass-contacts {
     display: flex;
-    gap: 28px;
+    gap: 40px;
+    
 }
 .link {
     color: #2e2f42;
+    text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -105,22 +109,27 @@ display: inline-block;
 }
 .tegaddress {
     font-style: normal;    
-      background: #E7E9FC;
+      background: #FFFFFF;
        color: #434455;
    font-family: Roboto;
        font-weight: 400;
        font-size: 16px;
         line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 .ulclass-address {
 display: flex;
-gap: 28px;
+gap: 40px;
 list-style: none;  
  padding-left: 0;
+padding-right: 156px;
+
 }
 .linkq {
     color: #434455;
+    text-decoration: none;
+    
 }
 .linkq:hover,
 .linkq:focus {
@@ -162,17 +171,24 @@ list-style: none;
    background-color: #404BBF; 
   }
 .advantages {
-    background: #E7E9FC;
+    background: #FFFFFF;
     color: #2E2F42;
     font-family: Roboto;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-   
+   display:flex;
 }
+
+.strategy {
+    background: #FFFFFF;
+    display: flex;
+    gap: 24px;
+}
+
 .feature {
-    background: #E7E9FC;
+    background: #FFFFFF;
     color: #434455;
     font-family: Roboto;
         font-weight: 400;
@@ -196,8 +212,15 @@ background-color: #F4F4FD;
         text-transform: capitalize;
 }
 .ourteam {
-    background: #FFFFFF;
+    background: #F4F4FD;
+    
    
+}
+.ulteam {
+    
+    display: flex;
+    gap: 24px;
+    padding: 30px 0;
 }
 .teamq { 
     background:#FFFFFF;
@@ -220,7 +243,7 @@ font-family: Roboto;
         text-align: center;
 }
 .portfolio { 
-    background: #E7E9FC;
+    background: #FFFFFF;
     color: #2e2f42;
     font-family: Roboto;
         font-weight: 700;
@@ -229,6 +252,12 @@ font-family: Roboto;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+}
+.ulportfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 48px;
 }
 .portfolioq {
     color: #2e2f42;
@@ -256,6 +285,7 @@ font-family: Roboto;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        
 }
 
 .webq {
@@ -286,6 +316,8 @@ font-size: 16px;
 line-height: 24px;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    display: flex;
+   flex-direction: column;
 }
 .a {
     text-decoration: none;
