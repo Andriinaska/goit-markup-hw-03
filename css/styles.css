@@ -29,7 +29,6 @@ img {
      font-family: Roboto, sans-serif;
      color: #434455;
      background-color: #FFFFFF;
-     box-sizing: border-box;
      height: 100%;
  }
 
@@ -56,7 +55,6 @@ img {
          display: flex;
 }
 .nav{
-    display: flex;
     list-style: none;
         padding-left: 0;
         align-items: center;
@@ -178,7 +176,8 @@ gap: 40px;
          margin-left: 165px;
          margin-top: 48px;
 }
-  .button:hover,:focus{
+  .button:hover,
+  .focus:focus {
     background-color: #404BBF; 
   }
   .section-strategy {
@@ -204,7 +203,7 @@ gap: 40px;
   }
 
 .li-strategy {
-    width: calc(100%-3*24px);
+    width: calc(100% - 3 * 24px);
 }
 
 .advantages {
@@ -305,7 +304,7 @@ padding: 120px 0;
 }
 
 .liportfolio {
-width:calc(100%-48px/3);
+width: calc(100%-48px/3);
 }
 .div-porfolio {
     padding: 32px 16px;
