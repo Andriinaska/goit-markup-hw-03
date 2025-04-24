@@ -1,11 +1,6 @@
-
-        *,
-        *::before,
-        *::after {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+ html {
+     height: 100%;
+ }
     
         h1,
         h2,
@@ -23,54 +18,64 @@
             padding: 0;
             list-style: none;
         }
+
 img {
-    display: block;
-    max-width: 100%;
-    
-}
-.container {
-    width: 100%;
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.body {
-    font-family: Roboto, sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-    display: inline-block;
-    width: max-content;
-}
- 
-.ulheader {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding-left: 0;
+     display: block;
+     max-width: 100%;
+
 }
 
-.header {
-    background-color:#FFFFFF;
-    padding: 28px 0;
-    border-bottom: 1px solid#FFFFFF;
-      
+ body {
+     font-family: Roboto, sans-serif;
+     color: #434455;
+     background-color: #FFFFFF;
+     box-sizing: border-box;
+     height: 100%;
+ }
+
+  *,
+  *::before,
+  *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+  }
+.container {
+        width: 100%;
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    
 }
+.header {
+    background-color: #FFFFFF;
+         padding: 28px 0;
+         border-bottom: 1px solid#e7e9fc;
+         display: flex;
+}
+.nav{
+    display: flex;
+    list-style: none;
+        padding-left: 0;
+        align-items: center
+}
+
+
 
 .web {
-background #FFFFFF;
-color:#4D5AE5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-display: inline-block;
-text-decoration: none;
+    background #FFFFFF;
+    color:#4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+         margin-right: 76px;
 }
 
 .studio{
@@ -82,54 +87,55 @@ text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.ulclass-contacts {
+         display: flex;
+         gap: 40px;
 
+}
 .contacts {
     color: #2e2f42;
     background: #FFFFFF;    
     font-family: Roboto;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
         display: inline-block;
     
 }
-.ulclass-contacts {
-    display: flex;
-    gap: 40px;
-    
-}
+
 .link {
     color: #2e2f42;
     text-decoration: none;
+         padding: 24px 0;
 }
+.tegaddress {
+    font-style: normal;
+    background: #FFFFFF;
+    color: #434455;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+         display: flex;
+         gap: 40px;
+         padding-left: 170px;
+}
+.ulclass-adres {
+display: flex;
+gap: 40px;
+}
+
 .link:hover,
 .link:focus {
     color: #404bbf;
 }
-.tegaddress {
-    font-style: normal;    
-      background: #FFFFFF;
-       color: #434455;
-   font-family: Roboto;
-       font-weight: 400;
-       font-size: 16px;
-        line-height: 1.5;
-    letter-spacing: 0.02em;
-    
-}
-.ulclass-address {
-display: flex;
-gap: 40px;
-list-style: none;  
- padding-left: 0;
-padding-right: 156px;
 
-}
 .linkq {
     color: #434455;
     text-decoration: none;
-    
+    margin-right: 0;
 }
 .linkq:hover,
 .linkq:focus {
@@ -139,54 +145,69 @@ padding-right: 156px;
 
  .efective {
      background: #2E2F42;
-   
-   
-  
+     padding: 188px 0;
     
  }
 
 .title {
-     background: #2E2F42;
-        color:#FFFFFF; 
+    background: #2E2F42;
+    color:#FFFFFF; 
     font-family: Roboto;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+        max-width: 496px;
 }
 .button {
     background-color: #4D5AE5;
-        color: #FFFFFF;
+    color: #FFFFFF;
     font-family: Roboto, sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-   
-        
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+         display: block;
+         min-width: 169px;
+         height: 56px;
+         border: none;  
+         border-radius: 4px;  
+         margin-left: 165px;
+         margin-top: 48px;
 }
   .button:hover,:focus{
-   background-color: #404BBF; 
+    background-color: #404BBF; 
+  }
+  .section-strategy {
+    padding: 120px 0;
+  }
+ .visually-hidden {
+    width: 1px;
+    height: 1px;
   }
 .advantages {
     background: #FFFFFF;
     color: #2E2F42;
     font-family: Roboto;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-   display:flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+        display:flex;
 }
 
 .strategy {
     background: #FFFFFF;
     display: flex;
     gap: 24px;
-}
 
+
+}
+.li-strategy {
+    width: calc(100%-3*24px);
+}
 .feature {
     background: #FFFFFF;
     color: #434455;
@@ -195,9 +216,11 @@ padding-right: 156px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+     padding-top: 8px;
 }
 .section {
 background-color: #F4F4FD;
+padding: 120px 0;
 }
 
 .team {
@@ -210,9 +233,11 @@ background-color: #F4F4FD;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .ourteam {
     background: #F4F4FD;
+    border-radius: 0px 0px 4px 4px;
     
    
 }
@@ -222,15 +247,19 @@ background-color: #F4F4FD;
     gap: 24px;
     padding: 30px 0;
 }
+.divteam {
+    padding: 32px 0;
+}
 .teamq { 
     background:#FFFFFF;
     color: #2e2f42;
-font-family: Roboto;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+         text-align: center;
+         margin-bottom: 8px;
 }
 .profession {
     background:#FFFFFF;
@@ -242,6 +271,9 @@ font-family: Roboto;
         letter-spacing: 0.02em;
         text-align: center;
 }
+.section-portfolio {
+    padding: 120px 0 120px 0;
+}
 .portfolio { 
     background: #FFFFFF;
     color: #2e2f42;
@@ -252,12 +284,18 @@ font-family: Roboto;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 .ulportfolio {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 48px;
+    row-gap: 48px;
+}
+.div-porfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolioq {
     color: #2e2f42;
@@ -266,6 +304,7 @@ font-family: Roboto;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 .portfoliow {
     color: #434455;
@@ -281,11 +320,12 @@ font-family: Roboto;
     font-family: Roboto, sans-serif;
     background: #2e2f42;
     font-family: raleway, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+        display: inline-block;
+        padding: 100px 0;
 }
 
 .webq {
@@ -297,6 +337,9 @@ font-family: Roboto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 156px;
+   margin-bottom: 16px;
 } 
 
 .studioq {
@@ -307,6 +350,9 @@ font-family: Roboto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
+    
+    
 }
 .footerq {
  background: #2e2f42;
@@ -316,8 +362,7 @@ font-size: 16px;
 line-height: 24px;
     color: #f4f4fd;
     letter-spacing: 0.02em;
-    display: flex;
-   flex-direction: column;
+   padding: 0px 680px 100px 156px;
 }
 .a {
     text-decoration: none;
