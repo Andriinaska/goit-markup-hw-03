@@ -59,7 +59,8 @@ img {
     display: flex;
     list-style: none;
         padding-left: 0;
-        align-items: center
+        align-items: center;
+        display: flex;
 }
 
 
@@ -187,6 +188,17 @@ gap: 40px;
     width: 1px;
     height: 1px;
   }
+  .strategy {
+      background: #FFFFFF;
+      display: flex;
+      gap: 24px;
+    width: calc(100%-3*24px);
+  }
+
+.li-strategy {
+    width: calc(100%-3*24px);
+}
+
 .advantages {
     background: #FFFFFF;
     color: #2E2F42;
@@ -196,18 +208,9 @@ gap: 40px;
     line-height: 1.2;
     letter-spacing: 0.02em;
         display:flex;
+        margin-bottom: 8px;
 }
 
-.strategy {
-    background: #FFFFFF;
-    display: flex;
-    gap: 24px;
-
-
-}
-.li-strategy {
-    width: calc(100%-3*24px);
-}
 .feature {
     background: #FFFFFF;
     color: #434455;
@@ -289,8 +292,12 @@ padding: 120px 0;
 .ulportfolio {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
     row-gap: 48px;
+}
+
+.liportfolio {
+width:calc(100%-48px/3);
 }
 .div-porfolio {
     padding: 32px 16px;
@@ -340,6 +347,7 @@ padding: 120px 0;
     text-decoration: none;
     padding-left: 156px;
    margin-bottom: 16px;
+   display: inline-block;
 } 
 
 .studioq {
