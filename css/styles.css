@@ -46,7 +46,7 @@ img {
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-        display: flex;
+    
 }
 .header {
     background-color: #FFFFFF;
@@ -99,7 +99,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-        display: inline-block;
+    display: flex;   
     
 }
 
@@ -125,7 +125,10 @@ img {
 display: flex;
 gap: 40px;
 }
-
+.li-adres {
+display: flex;
+gap: 40px;
+}
 .link:hover,
 .link:focus {
     color: #404bbf;
@@ -145,7 +148,7 @@ gap: 40px;
  .efective {
      background: #2E2F42;
      padding: 188px 0;
-    
+    display: flex;
  }
 
 .title {
@@ -340,6 +343,7 @@ width: calc(100%-48px/3);
     letter-spacing: 0.02em;
         display: inline-block;
         padding: 100px 0;
+        
 }
 
 .webq {
@@ -354,7 +358,7 @@ width: calc(100%-48px/3);
     text-decoration: none;
     padding-left: 156px;
    margin-bottom: 16px;
-   display: inline-block;
+   
 } 
 
 .studioq {
@@ -365,10 +369,9 @@ width: calc(100%-48px/3);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
-    
-    
+   
 }
+
 .footerq {
  background: #2e2f42;
  font-family: Roboto, sans-serif;
