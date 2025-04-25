@@ -103,12 +103,7 @@ img {
     
 }
 
-.link {
-    color: #2e2f42;
-    text-decoration: none;
-         padding: 24px 0;
-}
-.tegaddress {
+.contacts-address {
     font-style: normal;
     background: #FFFFFF;
     color: #434455;
@@ -117,30 +112,39 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-         display: flex;
-         gap: 40px;
          padding-left: 170px;
 }
-.ulclass-adres {
+
+.contacts-list {
 display: flex;
 gap: 40px;
+margin: 0;
+padding: 0;
 }
-.li-adres {
+.contacts-item {
 display: flex;
-gap: 40px;
+    gap: 40px;
+}
+.contacts-item:last-child {
+    margin-right: 0;
+}
+.link {
+    color: #2e2f42;
+    text-decoration: none;
+    padding: 24px 0;
 }
 .link:hover,
 .link:focus {
     color: #404bbf;
 }
 
-.linkq {
+.contacts-link {
     color: #434455;
     text-decoration: none;
     margin-right: 0;
 }
-.linkq:hover,
-.linkq:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
