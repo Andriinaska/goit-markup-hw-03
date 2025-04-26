@@ -120,6 +120,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
          padding-left: 170px;
+         padding-top: 24px;
          
 }
 
@@ -162,6 +163,10 @@ display: flex;
      padding: 188px 0;
     display: flex;
  }
+.efective-div {
+     display: inline-block;
+     padding-left: 300px;
+}
 
 .title {
     background: #2E2F42;
@@ -239,7 +244,9 @@ display: flex;
 background-color: #F4F4FD;
 padding: 120px 0;
 }
-
+.team-div {
+   display: inline-block;
+}
 .team {
     background-color: #F4F4FD;
     color: #2e2f42;
@@ -290,6 +297,10 @@ padding: 120px 0;
 }
 .section-portfolio {
     padding: 120px 0 120px 0;
+    
+}
+.portfolio-a {
+display: inline-block;
 }
 .portfolio { 
     background: #FFFFFF;
@@ -308,15 +319,15 @@ padding: 120px 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc(100%-48px/3);
+    
 }
 
 .liportfolio {
-     padding: 32px 16px;
-     border: 1px solid #e7e9fc;
+    width: calc(100%-48px/3);
 }
 .div-porfolio {
-   
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 .portfolioq {
@@ -346,12 +357,12 @@ padding: 120px 0;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-        display: inline-block;
         padding: 100px 0;
         
+        
 }
-.a href {
-display: inline-block;
+.footer-inc {
+    display: inline-block;
 }
 .webq {
     background: #2e2f42;
@@ -363,10 +374,9 @@ display: inline-block;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    padding-left: 156px;
-   margin-bottom: 16px;
-
-   
+    display: flex;
+    padding-left: 0px;
+        margin-bottom: 16px;
 } 
 
 .studioq {
@@ -386,10 +396,10 @@ display: inline-block;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
-   padding: 0px 680px 100px 156px;
+color: #f4f4fd;
+     display: flex;
+     letter-spacing: 0.02em;
+     max-width: 264px;
+     padding-top: 16px;
 }
-
-
 
