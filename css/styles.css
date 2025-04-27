@@ -12,18 +12,10 @@
             margin: 0;
         }
     
-        ul,
-        ol {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-img {
-     display: block;
-     max-width: 100%;
-
-}
+          ul {
+              padding-left: 0;
+              margin: 0;
+          }
 
  body {
      font-family: Roboto, sans-serif;
@@ -336,7 +328,7 @@ display: inline-block;
 .div-portfolio {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    
+    border-top: none;
 }
 .portfolioq {
     color: #2e2f42;
@@ -366,8 +358,7 @@ display: inline-block;
     line-height: 24px;
     letter-spacing: 0.02em;
         padding: 100px 0;
-        
-        
+             
 }
 
 .webq {
@@ -380,7 +371,7 @@ display: inline-block;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    display: flex;
+    display: inline-block;
     padding-left: 0px;
         margin-bottom: 16px;
 } 
