@@ -50,8 +50,12 @@ img {
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
-  
+
 }
+.span-header {
+    display: flex;
+}
+
 .nav{
      list-style: none;
         padding-left: 0;
