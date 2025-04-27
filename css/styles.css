@@ -52,9 +52,6 @@ img {
     border-bottom: 1px solid #e7e9fc;
 
 }
-.span-header {
-    display: flex;
-}
 
 .nav{
      list-style: none;
@@ -117,11 +114,12 @@ img {
          padding-left: 170px;
          padding-top: 24px;
          display: flex;
+         
         
 }
 
 .contacts-list {
-         display: flex;
+        display: flex;
          gap: 40px;
          margin: 0;
          padding: 0;
