@@ -46,7 +46,7 @@ img {
          padding-right: 15px;
          margin-left: auto;
          margin-right: auto;
-         
+         display: flex;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
