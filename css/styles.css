@@ -52,7 +52,9 @@ img {
     border-bottom: 1px solid #e7e9fc;
 
 }
-
+.header-div {
+         display: flex;
+}
 .nav{
      list-style: none;
         padding-left: 0;
@@ -113,9 +115,7 @@ img {
      letter-spacing: 0.02em;
          padding-left: 170px;
          padding-top: 24px;
-         display: flex;
-         
-        
+         display: flex;       
 }
 
 .contacts-list {
